@@ -134,23 +134,4 @@ private void BackTrack2(LinkedList<HashMap<Integer ,LinkedList<Integer>>> Candid
 
 此时，res中已存储了所有可能的新等式，一个path中依次是左边数字、和、操作符转化成的新数，为空时默认不变。我们随机取一个，遍历得到新的等式。之后用户输入答案，我们调用Question.check函数，一个个比较数字与操作符，看是否与条件相符即可。
 
-## 五、测试结果
-
-测试移动：
-
-![image-20181008183319200](/Users/elliot/Library/Application Support/typora-user-images/image-20181008183319200.png)
-
-测试移动：
-
-![573A28B0-96DD-4575-B280-E8E0E16D636D](/Users/elliot/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/Users/1195603488/QQ/Temp.db/573A28B0-96DD-4575-B280-E8E0E16D636D.png)
-
-测试移除：
-
-![53836949-8927-4B37-8D61-6187863C4854](/Users/elliot/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/Users/1195603488/QQ/Temp.db/53836949-8927-4B37-8D61-6187863C4854.png)
-
-测试添加：
-
-![232B8895-3FE5-43D5-8260-CBADC52D5865](/Users/elliot/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/Users/1195603488/QQ/Temp.db/232B8895-3FE5-43D5-8260-CBADC52D5865.png)
-
-经测试均符合预期，部分测试截图如上。
 
